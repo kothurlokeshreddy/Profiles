@@ -1,0 +1,32 @@
+.profile-card {
+    width: 45%;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    margin-top: 10px;
+    border-radius: 12px;
+    display: flex;
+}
+
+.profile-card img {
+    border-radius: 12px;
+}
+
+.profile-details {
+    margin-left: 50px;
+    align-self: center; 
+}
+
+@media screen and (max-width : 768px) {
+    .profile-card {
+        width: 90%;
+    }
+
+    .profile-card img {
+        height: 132px;
+        width: 110px;
+    }
+
+    .profile-details {
+        font-size: 12px;
+    }
+}

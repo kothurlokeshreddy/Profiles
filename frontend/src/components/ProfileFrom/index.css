@@ -1,0 +1,76 @@
+.profile-form-container {
+    background-image: url("https://img.freepik.com/free-vector/futuristic-background-design_23-2148503793.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 0px 2px 4px 0px;
+}
+
+.input-container {
+    border: 1px solid #000000;
+    border-radius: 12px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input-container label {
+    font-size: 15px;
+    font-family: "Roboto";
+    margin-bottom: 8px;
+    color: #898989;
+}
+
+.input-container input {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: #000000;
+}
+
+.create-btn {
+    height: 36px;
+    background-color: #0874ef;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+}
+
+.heading-form-container h1 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.heading-form-container p {
+    font-style: italic;
+    text-align: center;
+}
+
+.profile-form-link {
+    text-decoration: none;
+    cursor: initial;
+}
+
+@media screen and (min-width : 768px) {
+    .form-container {
+        width: 500px;
+    }
+}

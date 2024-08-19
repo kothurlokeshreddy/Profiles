@@ -1,0 +1,19 @@
+nav {
+    background: rgb(103,12,12);
+    background: linear-gradient(90deg, rgba(103,12,12,1) 20%, rgba(21,9,25,1) 72%, rgba(24,112,157,1) 88%);
+    display: flex;justify-content: space-between;
+    padding: 15px;
+}
+
+.header-containers {
+    background-color: transparent;
+    width: 50%;
+    text-align: center;
+    border: none;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    font-size: 22px;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
